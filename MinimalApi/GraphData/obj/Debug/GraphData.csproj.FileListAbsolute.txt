@@ -1,0 +1,9 @@
+C:\Users\yyang\Documents\github\ASP.NET_MinimalAPI\MinimalAPI\GraphData\bin\Debug\GraphData.dll
+C:\Users\yyang\Documents\github\ASP.NET_MinimalAPI\MinimalAPI\GraphData\bin\Debug\GraphData.pdb
+C:\Users\yyang\Documents\github\ASP.NET_MinimalAPI\MinimalAPI\GraphData\bin\Debug\Newtonsoft.Json.dll
+C:\Users\yyang\Documents\github\ASP.NET_MinimalAPI\MinimalAPI\GraphData\bin\Debug\Newtonsoft.Json.xml
+C:\Users\yyang\Documents\github\ASP.NET_MinimalAPI\MinimalAPI\GraphData\obj\Debug\GraphData.csproj.AssemblyReference.cache
+C:\Users\yyang\Documents\github\ASP.NET_MinimalAPI\MinimalAPI\GraphData\obj\Debug\GraphData.csproj.CoreCompileInputs.cache
+C:\Users\yyang\Documents\github\ASP.NET_MinimalAPI\MinimalAPI\GraphData\obj\Debug\GraphData.csproj.CopyComplete
+C:\Users\yyang\Documents\github\ASP.NET_MinimalAPI\MinimalAPI\GraphData\obj\Debug\GraphData.dll
+C:\Users\yyang\Documents\github\ASP.NET_MinimalAPI\MinimalAPI\GraphData\obj\Debug\GraphData.pdb
