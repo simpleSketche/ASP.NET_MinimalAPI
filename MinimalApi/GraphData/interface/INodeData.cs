@@ -8,8 +8,8 @@ namespace GraphData
 {
     public interface INodeData
     {
-        int Id { get; set; }
+        int id { get; set; }
 
-        string Name { get; set; }
+        string name { get; set; }
     }
 }

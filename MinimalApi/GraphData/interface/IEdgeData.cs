@@ -8,9 +8,9 @@ namespace GraphData
 {
     public interface IEdgeData
     {
-        int Source { get; set; }
+        int source { get; set; }
 
-        int Target { get; set; }
+        int target { get; set; }
 
         HashSet<int> connection { get; set; }
     }

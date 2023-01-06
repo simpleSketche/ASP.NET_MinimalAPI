@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MinimalApi;
 using Newtonsoft.Json;
 
 namespace GraphData
@@ -15,11 +16,11 @@ namespace GraphData
         {
             Nodes = new List<INodeData>();
             Edges = new List<IEdgeData>();
-            CreateGraphData();
         }
 
         public List<INodeData> Nodes { get; set; }
         public List<IEdgeData> Edges { get; set; }
+        public IGraphData Graph { get; set; }
 
         public string TEST()
         {
@@ -27,29 +28,41 @@ namespace GraphData
         }
         public string SerializeNodes()
         {
+            CreateNodeData();
             string jsonStr = JsonConvert.SerializeObject(Nodes);
             return jsonStr;
         }
         public string SerializeEdges()
         {
+            CreateEdgeData();
             string jsonStr = JsonConvert.SerializeObject(Edges);
             return jsonStr;
         }
 
-        private void CreateGraphData()
+        public string CreateGraphData()
         {
             CreateNodeData();
             CreateEdgeData();
+
+            IGraphData graphData = new GraphDataSet();
+            graphData.nodes = Nodes;
+            graphData.edges = Edges;
+            Graph = graphData;
+
+            string jsonStr = JsonConvert.SerializeObject(Graph);
+            return jsonStr;
         }
 
         private void CreateNodeData()
         {
+            Nodes.Clear();
+
             int numNodes = 20;
             for(int i = 0; i < numNodes; i++)
             {
                 NodeData curNode = new NodeData();
-                curNode.Name = i.ToString();
-                curNode.Id = i;
+                curNode.name = i.ToString();
+                curNode.id = i;
                 Nodes.Add(curNode);
             }
         }
@@ -69,9 +82,11 @@ namespace GraphData
 
         private void CreateEdgeData()
         {
+            Edges.Clear();
+
             int numNodes = Nodes.Count;
 
-            Random rand = new Random();
+            Random rand = new Random((int)DateTime.Now.TimeOfDay.TotalSeconds);
 
             List<HashSet<int>> addedSets = new List<HashSet<int>>();
 
@@ -82,8 +97,8 @@ namespace GraphData
                 for(int j = 0; j < numNeighbors; j++)
                 {
                     EdgeData curEdge = new EdgeData();
-                    curEdge.Source = i;
-                    curEdge.Target = j;
+                    curEdge.source = i;
+                    curEdge.target = j;
                     curEdge.connection = new HashSet<int> { i, j };
 
                     bool isContained = IsEdgeExisted(curEdge.connection, addedSets);

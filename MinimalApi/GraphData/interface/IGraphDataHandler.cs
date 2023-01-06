@@ -12,10 +12,12 @@ namespace GraphData
 
         List<IEdgeData> Edges { get; set; }
 
+        IGraphData Graph { get; set; }
+
         string SerializeNodes();
 
         string SerializeEdges();
 
-        string TEST();
+        string CreateGraphData();
     }
 }

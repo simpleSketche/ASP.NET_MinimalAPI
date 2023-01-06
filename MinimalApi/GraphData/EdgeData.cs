@@ -8,8 +8,8 @@ namespace GraphData
 {
     public class EdgeData : IEdgeData
     {
-        public int Source { get; set; }
-        public int Target { get; set; }
+        public int source { get; set; }
+        public int target { get; set; }
         public HashSet<int> connection { get; set; }
     }
 }

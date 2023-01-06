@@ -21,4 +21,6 @@ app.MapGet("/api/GetNodes", () => GraphDataHandler.Instance.SerializeNodes());
 
 app.MapGet("/api/GetEdges", () => GraphDataHandler.Instance.SerializeEdges());
 
+app.MapGet("/api/GetGraph", () => GraphDataHandler.Instance.CreateGraphData());
+
 app.Run();
