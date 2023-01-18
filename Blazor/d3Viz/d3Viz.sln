@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGHApp", "TestGHApp\TestGHApp.csproj", "{8A4E9A51-AAD1-4797-8380-C75E6DF1D095}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "d3Viz", "d3Viz\d3Viz.csproj", "{A985D06D-5ED3-40A3-8672-67DA4E8D711B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A4E9A51-AAD1-4797-8380-C75E6DF1D095}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A4E9A51-AAD1-4797-8380-C75E6DF1D095}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A4E9A51-AAD1-4797-8380-C75E6DF1D095}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A4E9A51-AAD1-4797-8380-C75E6DF1D095}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A985D06D-5ED3-40A3-8672-67DA4E8D711B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A985D06D-5ED3-40A3-8672-67DA4E8D711B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A985D06D-5ED3-40A3-8672-67DA4E8D711B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A985D06D-5ED3-40A3-8672-67DA4E8D711B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {142E21EB-1677-4771-AB05-B040B11DAA3C}
+	EndGlobalSection
+EndGlobal

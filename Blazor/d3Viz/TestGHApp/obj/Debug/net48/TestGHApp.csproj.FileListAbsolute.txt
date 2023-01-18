@@ -1,0 +1,11 @@
+C:\Users\yanga\Documents\github\ASP.NET_MinimalAPI\Blazor\d3Viz\TestGHApp\bin\Debug\net48\TestGHApp.gha
+C:\Users\yanga\Documents\github\ASP.NET_MinimalAPI\Blazor\d3Viz\TestGHApp\bin\Debug\net48\TestGHApp.pdb
+C:\Users\yanga\Documents\github\ASP.NET_MinimalAPI\Blazor\d3Viz\TestGHApp\obj\Debug\net48\TestGHApp.csproj.AssemblyReference.cache
+C:\Users\yanga\Documents\github\ASP.NET_MinimalAPI\Blazor\d3Viz\TestGHApp\obj\Debug\net48\TestGHApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yanga\Documents\github\ASP.NET_MinimalAPI\Blazor\d3Viz\TestGHApp\obj\Debug\net48\TestGHApp.AssemblyInfoInputs.cache
+C:\Users\yanga\Documents\github\ASP.NET_MinimalAPI\Blazor\d3Viz\TestGHApp\obj\Debug\net48\TestGHApp.AssemblyInfo.cs
+C:\Users\yanga\Documents\github\ASP.NET_MinimalAPI\Blazor\d3Viz\TestGHApp\obj\Debug\net48\TestGHApp.csproj.CoreCompileInputs.cache
+C:\Users\yanga\Documents\github\ASP.NET_MinimalAPI\Blazor\d3Viz\TestGHApp\obj\Debug\net48\TestGHApp.gha
+C:\Users\yanga\Documents\github\ASP.NET_MinimalAPI\Blazor\d3Viz\TestGHApp\obj\Debug\net48\TestGHApp.pdb
+C:\Users\yanga\Documents\github\ASP.NET_MinimalAPI\Blazor\d3Viz\TestGHApp\obj\Debug\net48\TestGHApp.Properties.Resources.resources
+C:\Users\yanga\Documents\github\ASP.NET_MinimalAPI\Blazor\d3Viz\TestGHApp\obj\Debug\net48\TestGHApp.csproj.GenerateResource.cache

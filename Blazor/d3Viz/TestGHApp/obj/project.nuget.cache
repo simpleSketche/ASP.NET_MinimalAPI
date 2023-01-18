@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "oq7t3ffv+PZXRA5js83/z3cN6S1KoDnTQqry2V+TQW/Kp4OfwR0FYbOYhHbP/UMyvyxnMQquvvErdMbPp5oa4w==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yanga\\Documents\\github\\ASP.NET_MinimalAPI\\Blazor\\d3Viz\\TestGHApp\\TestGHApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yanga\\.nuget\\packages\\grasshopper\\7.13.21348.13001\\grasshopper.7.13.21348.13001.nupkg.sha512",
+    "C:\\Users\\yanga\\.nuget\\packages\\rhinocommon\\7.13.21348.13001\\rhinocommon.7.13.21348.13001.nupkg.sha512"
+  ],
+  "logs": []
+}

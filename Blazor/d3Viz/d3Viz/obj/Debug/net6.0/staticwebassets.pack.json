@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\yanga\\Documents\\github\\ASP.NET_MinimalAPI\\Blazor\\d3Viz\\d3Viz\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\d3Viz.bundle.scp.css",
+      "PackagePath": "staticwebassets\\d3Viz.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\yanga\\Documents\\github\\ASP.NET_MinimalAPI\\Blazor\\d3Viz\\d3Viz\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yanga\\Documents\\github\\ASP.NET_MinimalAPI\\Blazor\\d3Viz\\d3Viz\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\yanga\\Documents\\github\\ASP.NET_MinimalAPI\\Blazor\\d3Viz\\d3Viz\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\yanga\\Documents\\github\\ASP.NET_MinimalAPI\\Blazor\\d3Viz\\d3Viz\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Users\\yanga\\Documents\\github\\ASP.NET_MinimalAPI\\Blazor\\d3Viz\\d3Viz\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\yanga\\Documents\\github\\ASP.NET_MinimalAPI\\Blazor\\d3Viz\\d3Viz\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\yanga\\Documents\\github\\ASP.NET_MinimalAPI\\Blazor\\d3Viz\\d3Viz\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Users\\yanga\\Documents\\github\\ASP.NET_MinimalAPI\\Blazor\\d3Viz\\d3Viz\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Users\\yanga\\Documents\\github\\ASP.NET_MinimalAPI\\Blazor\\d3Viz\\d3Viz\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Users\\yanga\\Documents\\github\\ASP.NET_MinimalAPI\\Blazor\\d3Viz\\d3Viz\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\yanga\\Documents\\github\\ASP.NET_MinimalAPI\\Blazor\\d3Viz\\d3Viz\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Users\\yanga\\Documents\\github\\ASP.NET_MinimalAPI\\Blazor\\d3Viz\\d3Viz\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\yanga\\Documents\\github\\ASP.NET_MinimalAPI\\Blazor\\d3Viz\\d3Viz\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.d3Viz.props",
+      "PackagePath": "build\\d3Viz.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.d3Viz.props",
+      "PackagePath": "buildMultiTargeting\\d3Viz.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.d3Viz.props",
+      "PackagePath": "buildTransitive\\d3Viz.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.d3Viz.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
