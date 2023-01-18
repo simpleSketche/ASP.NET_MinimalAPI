@@ -22,7 +22,6 @@ C:\Users\yanga\Documents\github\ASP.NET_MinimalAPI\Blazor\d3Viz\d3Viz\obj\Debug\
 C:\Users\yanga\Documents\github\ASP.NET_MinimalAPI\Blazor\d3Viz\d3Viz\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\yanga\Documents\github\ASP.NET_MinimalAPI\Blazor\d3Viz\d3Viz\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\yanga\Documents\github\ASP.NET_MinimalAPI\Blazor\d3Viz\d3Viz\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
-C:\Users\yanga\Documents\github\ASP.NET_MinimalAPI\Blazor\d3Viz\d3Viz\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 C:\Users\yanga\Documents\github\ASP.NET_MinimalAPI\Blazor\d3Viz\d3Viz\obj\Debug\net6.0\scopedcss\bundle\d3Viz.styles.css
 C:\Users\yanga\Documents\github\ASP.NET_MinimalAPI\Blazor\d3Viz\d3Viz\obj\Debug\net6.0\scopedcss\projectbundle\d3Viz.bundle.scp.css
 C:\Users\yanga\Documents\github\ASP.NET_MinimalAPI\Blazor\d3Viz\d3Viz\obj\Debug\net6.0\d3Viz.dll

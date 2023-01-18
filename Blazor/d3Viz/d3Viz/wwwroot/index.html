@@ -1,0 +1,35 @@
+﻿﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>Hackuble</title>
+    <base href="/" />
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/site.css" rel="stylesheet" />
+    <link rel="icon" href="/icon.png">
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="/js/scene.js"></script>
+</head>
+<body>
+    <app style="overflow: hidden;">Loading...</app>
+    <script>
+        function testShow(data) {
+            const div = d3.create("div")
+                .style("font", "10px sans-serif")
+                .style("text-aslign", "right")
+                .style("color", "white");
+            div.selectAll("#divdisplay")
+                .data(data)
+                .join("div")
+                .style("background", "red")
+                .style("padding", "3px")
+                .style("margin", "1px")
+                .style("width", d => `${d * 100}px`)
+                .text(d => d);
+            document.getElementById("divdisplay").appendChild(div.node());
+        }
+    </script>
+</body>
+</html>

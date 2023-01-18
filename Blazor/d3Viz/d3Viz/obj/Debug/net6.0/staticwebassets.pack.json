@@ -57,6 +57,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\yanga\\Documents\\github\\ASP.NET_MinimalAPI\\Blazor\\d3Viz\\d3Viz\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\yanga\\Documents\\github\\ASP.NET_MinimalAPI\\Blazor\\d3Viz\\d3Viz\\wwwroot\\js\\scene.js",
+      "PackagePath": "staticwebassets\\js\\scene.js"
+    },
+    {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.d3Viz.props",
       "PackagePath": "build\\d3Viz.props"
     },

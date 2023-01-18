@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5eVW1zRP0ruH/pxSgCl4E9nOVLZxrz173D7D1fPVUVM=",
+  "Hash": "aBc6XYb1tc9aqTnPftlpZKs6zSRa48jCiw/+BsItXro=",
   "Source": "d3Viz",
   "BasePath": "_content/d3Viz",
   "Mode": "Default",
@@ -83,23 +83,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\yanga\\Documents\\github\\ASP.NET_MinimalAPI\\Blazor\\d3Viz\\d3Viz\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "d3Viz",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\yanga\\Documents\\github\\ASP.NET_MinimalAPI\\Blazor\\d3Viz\\d3Viz\\wwwroot\\",
-      "BasePath": "_content/d3Viz",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "C:\\Users\\yanga\\Documents\\github\\ASP.NET_MinimalAPI\\Blazor\\d3Viz\\d3Viz\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
@@ -204,6 +187,23 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
+      "Identity": "C:\\Users\\yanga\\Documents\\github\\ASP.NET_MinimalAPI\\Blazor\\d3Viz\\d3Viz\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "d3Viz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yanga\\Documents\\github\\ASP.NET_MinimalAPI\\Blazor\\d3Viz\\d3Viz\\wwwroot\\",
+      "BasePath": "_content/d3Viz",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
+    },
+    {
       "Identity": "C:\\Users\\yanga\\Documents\\github\\ASP.NET_MinimalAPI\\Blazor\\d3Viz\\d3Viz\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "d3Viz",
       "SourceType": "Discovered",
@@ -270,6 +270,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\yanga\\Documents\\github\\ASP.NET_MinimalAPI\\Blazor\\d3Viz\\d3Viz\\wwwroot\\index.html",
+      "SourceId": "d3Viz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yanga\\Documents\\github\\ASP.NET_MinimalAPI\\Blazor\\d3Viz\\d3Viz\\wwwroot\\",
+      "BasePath": "_content/d3Viz",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\yanga\\Documents\\github\\ASP.NET_MinimalAPI\\Blazor\\d3Viz\\d3Viz\\wwwroot\\js\\scene.js",
+      "SourceId": "d3Viz",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yanga\\Documents\\github\\ASP.NET_MinimalAPI\\Blazor\\d3Viz\\d3Viz\\wwwroot\\",
+      "BasePath": "_content/d3Viz",
+      "RelativePath": "js/scene.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\scene.js"
     }
   ]
 }
