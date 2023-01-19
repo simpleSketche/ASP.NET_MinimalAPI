@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Yvc5f7ZevpNr0SJhAA5W9AjvlaoauGP6/ZaEVqt2WGA8+wCgtVibUTEdb8dmJ1EEMSpFel5f0FL7+v1sGevsGQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\yanga\\Documents\\github\\ASP.NET_MinimalAPI\\MVCApi\\TestLib\\TestLib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yanga\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\yanga\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

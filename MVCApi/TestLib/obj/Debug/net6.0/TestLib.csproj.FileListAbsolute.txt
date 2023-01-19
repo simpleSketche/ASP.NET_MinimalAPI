@@ -1,0 +1,12 @@
+C:\Users\yanga\Documents\github\ASP.NET_MinimalAPI\MVCApi\TestLib\bin\Debug\net6.0\TestLib.deps.json
+C:\Users\yanga\Documents\github\ASP.NET_MinimalAPI\MVCApi\TestLib\bin\Debug\net6.0\TestLib.dll
+C:\Users\yanga\Documents\github\ASP.NET_MinimalAPI\MVCApi\TestLib\bin\Debug\net6.0\TestLib.pdb
+C:\Users\yanga\Documents\github\ASP.NET_MinimalAPI\MVCApi\TestLib\obj\Debug\net6.0\TestLib.csproj.AssemblyReference.cache
+C:\Users\yanga\Documents\github\ASP.NET_MinimalAPI\MVCApi\TestLib\obj\Debug\net6.0\TestLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yanga\Documents\github\ASP.NET_MinimalAPI\MVCApi\TestLib\obj\Debug\net6.0\TestLib.AssemblyInfoInputs.cache
+C:\Users\yanga\Documents\github\ASP.NET_MinimalAPI\MVCApi\TestLib\obj\Debug\net6.0\TestLib.AssemblyInfo.cs
+C:\Users\yanga\Documents\github\ASP.NET_MinimalAPI\MVCApi\TestLib\obj\Debug\net6.0\TestLib.csproj.CoreCompileInputs.cache
+C:\Users\yanga\Documents\github\ASP.NET_MinimalAPI\MVCApi\TestLib\obj\Debug\net6.0\TestLib.dll
+C:\Users\yanga\Documents\github\ASP.NET_MinimalAPI\MVCApi\TestLib\obj\Debug\net6.0\refint\TestLib.dll
+C:\Users\yanga\Documents\github\ASP.NET_MinimalAPI\MVCApi\TestLib\obj\Debug\net6.0\TestLib.pdb
+C:\Users\yanga\Documents\github\ASP.NET_MinimalAPI\MVCApi\TestLib\obj\Debug\net6.0\ref\TestLib.dll
