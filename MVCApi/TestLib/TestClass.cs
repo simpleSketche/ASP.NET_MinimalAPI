@@ -8,7 +8,7 @@ namespace TestLib
         public string PrintMsg(string msg)
         {
             Random rand = new Random(DateTime.Now.Second);
-            msg = msg + rand.ToString();
+            msg = msg + rand.Next().ToString();
             return msg;
         }
     }

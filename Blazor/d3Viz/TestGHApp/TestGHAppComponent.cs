@@ -4,7 +4,10 @@ using Rhino.Geometry;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
+using System.Net.NetworkInformation;
+using System.Net.Sockets;
 using System.Threading;
 
 namespace TestGHApp
@@ -50,39 +53,49 @@ namespace TestGHApp
         {
             bool toRunWeb = false;
             bool success = false;
+            string processName = "";
             if(!DA.GetData(0, ref toRunWeb)){ return; }
 
             if (toRunWeb)
             {
                 ProcessStartInfo ps = new ProcessStartInfo();
-                
-                string filename = "RunCommand.bat";
-                string parameters = $"/k \"{filename}\"";
+                var curFolder = Directory.GetCurrentDirectory();
+                string filename = "RunServer.bat";
 
                 ps.FileName = filename;
                 //ps.WindowStyle= ProcessWindowStyle.Hidden;
-                ps.Arguments= parameters;
                 ps.UseShellExecute= true;
                 Process d3Viz = Process.Start(ps);
-                var timeSpan = d3Viz.TotalProcessorTime;
-                Thread.Sleep(5000);
+                processName = d3Viz.ProcessName;
 
-                List<Process> chromes = Process.GetProcessesByName("chrome").ToList();
+                var ping = new Ping();
+                while (!success)
+                {
+                    using (TcpClient tcpClient = new TcpClient())
+                    {
+                        try
+                        {
+                            tcpClient.Connect("127.0.0.1", 4000);
+                            success = true;
+                        }
+                        catch (Exception)
+                        {
+                        }
+                    }
+                }
                 Process.Start(new ProcessStartInfo
                 {
-                    FileName = "http://localhost:7119",
+                    FileName = "http://localhost:4000",
                     UseShellExecute = true
                 });
-
-                success = true;
             }
             else
             {
-               List<Process> allProcesses = Process.GetProcessesByName("d3viz").ToList();
+               List<Process> allProcesses = Process.GetProcessesByName("cmd").ToList();
+                allProcesses.AddRange(Process.GetProcessesByName("node"));
                 foreach (var process in allProcesses)
                 {
                     process.Kill();
-                    break;
                 }
             }
             
